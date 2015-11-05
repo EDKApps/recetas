@@ -1,0 +1,13 @@
+#para sacar de la cache el db.sqlite3 hice
+#git rm --cached db.sqlite3
+#para sacar todos los pyc de la cache
+#git rm --cached *.pyc
+
+#excluyo sqlite
+db.sqlite3
+
+#excluyo todos los pyc y otros
+__pycache__/
+*.py[cod]
+appreceta/migrations/
+
